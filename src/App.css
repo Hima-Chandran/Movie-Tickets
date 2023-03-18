@@ -1,0 +1,58 @@
+.searchMovie{
+  
+  display: flex;
+  justify-content: center;
+  
+
+}
+body{
+  background-color: rgb(204, 228, 228);
+}
+.searchMovie input{
+  padding: 20px;
+  
+  width: 500px;
+  text-align: center;
+  background-color: rgb(174, 200, 200);
+  border: 2px solid rgb(41, 75, 86);
+  color: rgb(4, 57, 57);
+  
+}
+.searchMovie button{
+  width: 100px;
+  margin-left: 10px;
+  background-color: rgb(4, 32, 32);
+  border: 2px solid rgb(97, 121, 121);
+  color: rgb(203, 221, 221);
+  cursor: pointer;
+}
+.movies_list{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.poster_div{
+  width: 18%;
+  /* border: 1px solid black; */
+  justify-content: center;
+}
+.poster_div img{
+  width: 200px;
+}
+.poster_div h5{
+  margin-top: 0;
+}
+.poster_div h4{
+  margin-bottom: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
